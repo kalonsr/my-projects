@@ -1,0 +1,47 @@
+.container
+{
+    width: 1100px;
+
+    text-align: center;
+
+    background-color: #fff;
+}
+
+.container h1
+{
+    font-size: 32px;
+    font-weight: 700;
+
+    color: green;
+}
+
+.buttons
+{
+    text-align: center;
+}
+
+.buttons a
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin: 15px 25px;
+    padding: 15px 20px;
+
+    cursor: pointer;
+    transition: .5s ease;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #45a0a4;
+    border: solid 2px #45a0a4;
+    border-radius: 4px;
+}
+.buttons a:hover
+{
+    background-color: #e5fffaff;
+    box-shadow: 0 0 20px 5px #e5fffaff;
+}
